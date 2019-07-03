@@ -1,0 +1,60 @@
+###################################################################################################
+### note: 开发人员可以在本地修改此文件，忽略本地特定的垃圾文件或配置文件，但不要push到远程仓库。###
+###################################################################################################
+
+### Build Artifacts  ###
+build/
+target/
+bin/
+
+### Compiled class file ###
+*.class
+
+### eclipse IDE ###
+.settings/
+.classpath
+.project
+
+
+### maven ###
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.factorypath
+.springBeans
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Package Files #
+# *.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+### operating system ###
+*.DS_Store
+Thumbs.db
+Desktop.ini
+
+### others ###
+*.exe
+
+###dev/config.properties###
+src/main/resources/config/dev/project.properties
