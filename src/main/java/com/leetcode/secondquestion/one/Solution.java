@@ -12,16 +12,16 @@ import java.util.List;
  */
 public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        if (l1 == null && l2 == null) {//先进行形参的判断，提高执行效率
+        if (l1 == null && l2 == null) {
             return null;
         }
-        if (l1 == null) {//因为上面判断了l1和l2，所以这里如果l1是null，那么l2必然有值，直接返回l2即可
+        if (l1 == null) {
             return l2;
         }
-        if (l2 == null) {//理由同上
+        if (l2 == null) {
             return l1;
         }
-        ListNode result = new ListNode(0);//
+        ListNode result = new ListNode(0);
         ListNode temp = result;
         while (true) {
             if (l1 != null) {
