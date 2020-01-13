@@ -15,7 +15,7 @@ import com.strategypattern.hero.Jax;
 public class HeroTest {
     public static void main(String[] args) {
         System.out.println("****************安妮/贾科斯   solo战****************");
-        System.out.println("一号选择了内瑟斯，二号选择了安妮");
+        System.out.println("一号选择了贾科斯，二号选择了安妮");
         Hero jaxHero = new Jax();
         Hero annieHero = new Annie();
         System.out.println("安妮 遭遇到 贾科斯 埋伏");
@@ -33,7 +33,5 @@ public class HeroTest {
             System.err.println("金身失败");
             System.err.println("安妮 卒");
         }
-        //需求2修改,需求2需求变动很大，需要大改动,修改版本监控的标记
     }
-    //需求1开始开发
 }
