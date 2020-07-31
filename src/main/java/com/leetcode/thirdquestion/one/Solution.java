@@ -27,7 +27,7 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int abcabcabcd = solution.lengthOfLongestSubstring("abcdabc");
+        int abcabcabcd = solution.lengthOfLongestSubstring("abcadcb");
         System.out.println(abcabcabcd);
     }
 
@@ -40,9 +40,11 @@ public class Solution {
      * @return
      */
     public int lengthOfLongestSubstring(String s) {
+        //abcadcb
         int n = s.length();
         int result = 0;
         int[] charInt = new int[256];
+
         for (int start = 0,end = 0; end < n; end++) {
             char c = s.charAt(end);
             start = Math.max(charInt[c], start);
