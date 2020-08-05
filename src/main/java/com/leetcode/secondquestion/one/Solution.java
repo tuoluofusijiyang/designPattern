@@ -45,7 +45,7 @@ public class Solution {
     }
 
 
-    class ListNode {
+    private class ListNode {
         int val;
         ListNode next;
 
